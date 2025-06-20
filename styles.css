@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(227, 207, 240);
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150px;
+    font-style: normal;
+    color: rgb(231, 42, 42);
+}
+.feed {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+.post {
+    background-color: white;
+    margin-bottom: 50px;
+    border: 1px solid black;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-instagram {
+    font-size: 35px;
+    margin: 5px;
+}
+.icon-name {
+    display:flex;
+}
+.elipse {
+    display: flex;
+    font-size: 35px;
+    justify-content: flex-end;
+    margin: 5px;
+}
+.name {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+}
+.image {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.post-footer {
+    display: flex;
+
+}
+.icon-footer {
+    font-size: 20px;
+    margin: 3px;
+}
+.coment {
+    margin-left: -73px;
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+}
